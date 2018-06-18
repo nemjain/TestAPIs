@@ -8,7 +8,8 @@ exports.config = {
     specs: ['../specs/vitaminSpec.js'],
 
     params:{
-        profileDetailsFlow : ['loginOptions','profileOptions']
+        profileDetailsFlow : ['loginOptions','profileOptions'],
+        maxApiResponseTime : 40000
     },
 
     jasmineNodeOpts: {
